@@ -86,7 +86,7 @@ class sms:
 
           i = 0
           while i < int(amount):
-            result = get_gateway(f"sms/{phone}").json()
+            result = requests.get(f"{api_url}/sms/{phone}").json()
             if result['Status:'] == "Attack done !!":
               i = i+1
               amount_removed = int(amount)-i
