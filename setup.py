@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="package_name_probably_on_pip",
+    name="alice-api",
     version="1.0.0",
-    description="description",
+    description="Alice api its come with sms spammer, truewallet system and host system!",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/username/repo",
+    url="https://github.com/alice-api/alice-api",
     author="pipatpong",
-    author_email="example@email.com",
+    author_email="kanyatit2500@gmail.com",
     license="MIT",
     packages=["alice_api"],
     classifiers=[
@@ -23,6 +23,7 @@ setup(
     install_requires=[
         "flask",
         "requests",
-        "requirements",
+        "datetime",
+        "os"
     ],
 )
