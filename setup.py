@@ -23,7 +23,6 @@ setup(
     install_requires=[
         "flask",
         "requests",
-        "datetime",
-        "os"
+        "datetime"
     ],
 )
